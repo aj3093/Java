@@ -8,6 +8,7 @@ public class Rational
 {
 private int numerator, denominator;
 
+
 //-----------------------------------------------------------------
 // Sets up the rational number by ensuring a nonzero denominator
 // and making only the numerator signed.
@@ -163,4 +164,7 @@ else
 num2 = num2 - num1;
 return num1;
 }
+
+public static void main(String[] args) {
+  
 }
